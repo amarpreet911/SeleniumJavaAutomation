@@ -2,9 +2,9 @@ package project.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import project.operations.GeneralOperations;
 import ru.yandex.qatools.allure.annotations.Title;
 import project.pages.HomePage;
-import project.pages.SignInPage;
 import qatest.base.BaseTest;
 
 /**
@@ -17,13 +17,9 @@ public class SignInTests extends BaseTest {
     @Test(testName = "TST-1", priority=1, description = "Test for Valid_Credentials")
     public void signInScreen() throws InterruptedException{
         System.out.println("This should run second");
-        // the below driver comesfrom BaseTest class
-        SignInPage signInPage = new SignInPage(driver);
-        HomePage homePage = new HomePage(driver);
-        signInPage.setUserName("***********@gmail.com");
-        signInPage.setUserPassword("*************");
-
-        signInPage.clickLogin();
+        GeneralOperations operations = new GeneralOperations();
+        operations.login("amarpreet911@gmail.com", "*********");
+        HomePage homePage = new HomePage();
         Assert.assertTrue(homePage.getHomeLogo(), "Unable to Login");
         Thread.sleep(6000);
     }
@@ -33,12 +29,10 @@ public class SignInTests extends BaseTest {
     public void signInScreenIN() throws InterruptedException{
         System.out.println("This should run second");
         // the below driver comesfrom BaseTest class
-        SignInPage signInPage = new SignInPage(driver);
-        HomePage homePage = new HomePage(driver);
-        signInPage.setUserName("amarpreet911@gmail.com");
-        signInPage.setUserPassword("************");
-        signInPage.clickLogin();
-        Assert.assertFalse(homePage.getHomeLogo(), "Unable to Login");
+        GeneralOperations operations = new GeneralOperations();
+        operations.login("amarpreet911@gmail.com", "************");
+        HomePage homePage = new HomePage();
+        Assert.assertFalse(homePage.getHomeLogo(), "LoggedIn: Test failed");
         Thread.sleep(6000);
     }
 

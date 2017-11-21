@@ -12,11 +12,8 @@ import qatest.utilities.Config;
  */
 public class HomePage extends BasePage {
 
-    WebDriver driver;
-
-    public HomePage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+    public HomePage() {
+        PageFactory.initElements(driver(), this);
     }
 
     @FindBy(xpath = Config.homeLogoDisplay)

@@ -13,11 +13,8 @@ import ru.yandex.qatools.allure.annotations.Step;
  */
 public class SignInPage extends BasePage{
 
-    WebDriver driver;
-
-    public SignInPage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+    public SignInPage() {
+        PageFactory.initElements(driver(), this);
     }
 
     @FindBy(xpath = Config.userId)
@@ -37,6 +34,7 @@ public class SignInPage extends BasePage{
     //Setting up the username
     @Step()
     public void setUserName(String userID){
+        System.out.println("usermane in signin page is "+userID);
         this.userID.sendKeys(userID);
     }
 
@@ -62,6 +60,7 @@ public class SignInPage extends BasePage{
     @Step
     public boolean isPageDisplayed() {
         Boolean page = canViewElement(30, loginButton);
+        System.out.println("the page displayed is "+page);
         return page;
     }
 

@@ -4,11 +4,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import ru.yandex.qatools.allure.annotations.Step;
+import org.openqa.selenium.WebDriver;
 
 /**
  * Created by amarpreet911 on 11/5/17.
  */
 public class BasePage extends BaseTest {
+
+    public static WebDriver driver(){
+        return BaseTest.driver();
+    }
+
 
     public void waitForElementVisibility(WebElement element){
         new WebDriverWait(driver, 20).until(ExpectedConditions.visibilityOf(element));
@@ -50,6 +56,7 @@ public class BasePage extends BaseTest {
             new WebDriverWait(driver, timeOut).until(ExpectedConditions.visibilityOf(element));
             return true;
         } catch (Exception te) {
+            System.out.println("exception in can view element "+te);
             return false;
         }
     }

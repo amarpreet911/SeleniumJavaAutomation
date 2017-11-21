@@ -18,8 +18,12 @@ import java.util.concurrent.TimeUnit;
  */
 public class BaseTest {
 
-     public  WebDriver driver;
+    public static WebDriver driver;
     WebDriverWait wait;
+
+    public static WebDriver driver(){
+        return driver;
+    }
 
     @BeforeSuite
     public void init(){

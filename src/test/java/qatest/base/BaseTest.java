@@ -50,9 +50,9 @@ public class BaseTest {
         }*/
         driver.get(Config.webSiteUrl);
 
-        wait = new WebDriverWait(driver,30);
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        Thread.sleep(2000);
+        wait = new WebDriverWait(driver,3);
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        Thread.sleep(1000);
     }
 
     @BeforeMethod

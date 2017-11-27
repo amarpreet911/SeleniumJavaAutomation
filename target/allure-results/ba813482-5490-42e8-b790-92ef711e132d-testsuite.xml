@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1511658905013" stop="1511658920511" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : SeleniumJavaAutomation</name>
+    <title>Default Suite : SeleniumJavaAutomation</title>
+    <test-cases>
+        <test-case start="1511658920448" stop="1511658920509" status="canceled">
+            <name>signInScreenIN</name>
+            <title>Title-TST-2</title>
+            <description>Test for Invalid_Credentials</description>
+            <failure>
+                <message>: Skipped due to dependency on other skipped or failed test methods</message>
+                <stack-trace>ru.yandex.qatools.allure.testng.AllureTestListener$1: Skipped due to dependency on other skipped or failed test methods
+	at ru.yandex.qatools.allure.testng.AllureTestListener.fireTestCaseCancel(AllureTestListener.java:425)
+	at ru.yandex.qatools.allure.testng.AllureTestListener.onTestSkipped(AllureTestListener.java:186)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1683)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1675)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1085)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:127)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumJavaAutomation"/>
+                <label name="testClass" value="project.tests.SignInTests"/>
+                <label name="testMethod" value="signInScreenIN"/>
+                <label name="host" value="amarpreet911-Inspiron-N5010"/>
+                <label name="thread" value="14790@amarpreet911-Inspiron-N5010.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -34,6 +34,7 @@ public class SignInPage extends BasePage{
     //Setting up the username
     @Step()
     public void setUserName(String userID){
+        this.userID.clear();
         System.out.println("usermane in signin page is "+userID);
         this.userID.sendKeys(userID);
     }
@@ -41,6 +42,7 @@ public class SignInPage extends BasePage{
     // Setting up the password
     @Step
     public void setUserPassword(String userPassword){
+        this.userPassword.clear();
         this.userPassword.sendKeys(userPassword);
     }
 
@@ -59,7 +61,7 @@ public class SignInPage extends BasePage{
 
     @Step
     public boolean isPageDisplayed() {
-        Boolean page = canViewElement(30, loginButton);
+        Boolean page = canViewElement(3, loginButton);
         System.out.println("the page displayed is "+page);
         return page;
     }

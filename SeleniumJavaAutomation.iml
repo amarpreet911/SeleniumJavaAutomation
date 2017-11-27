@@ -103,5 +103,7 @@
     <orderEntry type="library" name="Maven: org.apache.xmlbeans:xmlbeans:2.3.0" level="project" />
     <orderEntry type="library" name="Maven: stax:stax-api:1.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-java:3.6.0" level="project" />
+    <orderEntry type="library" name="Maven: org.twitter4j:twitter4j-core:3.0.5" level="project" />
+    <orderEntry type="library" name="Maven: commons-httpclient:commons-httpclient:3.1" level="project" />
   </component>
 </module>

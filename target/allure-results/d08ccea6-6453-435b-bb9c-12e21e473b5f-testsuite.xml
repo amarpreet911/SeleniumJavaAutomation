@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1511665925578" stop="1511665958336" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : SeleniumJavaAutomation</name>
+    <title>Default Suite : SeleniumJavaAutomation</title>
+    <test-cases>
+        <test-case start="1511665935288" stop="1511665937590" status="passed">
+            <name>signInScreenIN[test_user1,passwrd1]</name>
+            <title>Title-TST-2</title>
+            <description>Test for Invalid_Credentials</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumJavaAutomation"/>
+                <label name="testClass" value="project.tests.SignInTests"/>
+                <label name="testMethod" value="signInScreenIN"/>
+                <label name="host" value="amarpreet911-Inspiron-N5010"/>
+                <label name="thread" value="22013@amarpreet911-Inspiron-N5010.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511665937602" stop="1511665939363" status="passed">
+            <name>signInScreenIN[test_user2,passwrd2]</name>
+            <title>Title-TST-2</title>
+            <description>Test for Invalid_Credentials</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumJavaAutomation"/>
+                <label name="testClass" value="project.tests.SignInTests"/>
+                <label name="testMethod" value="signInScreenIN"/>
+                <label name="host" value="amarpreet911-Inspiron-N5010"/>
+                <label name="thread" value="22013@amarpreet911-Inspiron-N5010.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511665939384" stop="1511665941050" status="passed">
+            <name>signInScreenIN[test_user3,passwrd3]</name>
+            <title>Title-TST-2</title>
+            <description>Test for Invalid_Credentials</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumJavaAutomation"/>
+                <label name="testClass" value="project.tests.SignInTests"/>
+                <label name="testMethod" value="signInScreenIN"/>
+                <label name="host" value="amarpreet911-Inspiron-N5010"/>
+                <label name="thread" value="22013@amarpreet911-Inspiron-N5010.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511665941054" stop="1511665942766" status="passed">
+            <name>signInScreenIN[test_user4,passwrd4]</name>
+            <title>Title-TST-2</title>
+            <description>Test for Invalid_Credentials</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumJavaAutomation"/>
+                <label name="testClass" value="project.tests.SignInTests"/>
+                <label name="testMethod" value="signInScreenIN"/>
+                <label name="host" value="amarpreet911-Inspiron-N5010"/>
+                <label name="thread" value="22013@amarpreet911-Inspiron-N5010.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511665942769" stop="1511665944548" status="passed">
+            <name>signInScreenIN[test_user5,passwrd5]</name>
+            <title>Title-TST-2</title>
+            <description>Test for Invalid_Credentials</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumJavaAutomation"/>
+                <label name="testClass" value="project.tests.SignInTests"/>
+                <label name="testMethod" value="signInScreenIN"/>
+                <label name="host" value="amarpreet911-Inspiron-N5010"/>
+                <label name="thread" value="22013@amarpreet911-Inspiron-N5010.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511665944551" stop="1511665946401" status="passed">
+            <name>signInScreenIN[test_user6,passwrd6]</name>
+            <title>Title-TST-2</title>
+            <description>Test for Invalid_Credentials</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumJavaAutomation"/>
+                <label name="testClass" value="project.tests.SignInTests"/>
+                <label name="testMethod" value="signInScreenIN"/>
+                <label name="host" value="amarpreet911-Inspiron-N5010"/>
+                <label name="thread" value="22013@amarpreet911-Inspiron-N5010.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511665946404" stop="1511665948058" status="passed">
+            <name>signInScreenIN[test_user7,passwrd7]</name>
+            <title>Title-TST-2</title>
+            <description>Test for Invalid_Credentials</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumJavaAutomation"/>
+                <label name="testClass" value="project.tests.SignInTests"/>
+                <label name="testMethod" value="signInScreenIN"/>
+                <label name="host" value="amarpreet911-Inspiron-N5010"/>
+                <label name="thread" value="22013@amarpreet911-Inspiron-N5010.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511665948069" stop="1511665949746" status="passed">
+            <name>signInScreenIN[test_user8,passwrd8]</name>
+            <title>Title-TST-2</title>
+            <description>Test for Invalid_Credentials</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumJavaAutomation"/>
+                <label name="testClass" value="project.tests.SignInTests"/>
+                <label name="testMethod" value="signInScreenIN"/>
+                <label name="host" value="amarpreet911-Inspiron-N5010"/>
+                <label name="thread" value="22013@amarpreet911-Inspiron-N5010.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511665949749" stop="1511665951464" status="passed">
+            <name>signInScreenIN[test_user9,passwrd9]</name>
+            <title>Title-TST-2</title>
+            <description>Test for Invalid_Credentials</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumJavaAutomation"/>
+                <label name="testClass" value="project.tests.SignInTests"/>
+                <label name="testMethod" value="signInScreenIN"/>
+                <label name="host" value="amarpreet911-Inspiron-N5010"/>
+                <label name="thread" value="22013@amarpreet911-Inspiron-N5010.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511665951467" stop="1511665953132" status="passed">
+            <name>signInScreenIN[test_user10,passwrd10]</name>
+            <title>Title-TST-2</title>
+            <description>Test for Invalid_Credentials</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumJavaAutomation"/>
+                <label name="testClass" value="project.tests.SignInTests"/>
+                <label name="testMethod" value="signInScreenIN"/>
+                <label name="host" value="amarpreet911-Inspiron-N5010"/>
+                <label name="thread" value="22013@amarpreet911-Inspiron-N5010.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511665953135" stop="1511665954932" status="passed">
+            <name>signInScreenIN[test_user11,passwrd11]</name>
+            <title>Title-TST-2</title>
+            <description>Test for Invalid_Credentials</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumJavaAutomation"/>
+                <label name="testClass" value="project.tests.SignInTests"/>
+                <label name="testMethod" value="signInScreenIN"/>
+                <label name="host" value="amarpreet911-Inspiron-N5010"/>
+                <label name="thread" value="22013@amarpreet911-Inspiron-N5010.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511665954935" stop="1511665956593" status="passed">
+            <name>signInScreenIN[test_user12,passwrd12]</name>
+            <title>Title-TST-2</title>
+            <description>Test for Invalid_Credentials</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumJavaAutomation"/>
+                <label name="testClass" value="project.tests.SignInTests"/>
+                <label name="testMethod" value="signInScreenIN"/>
+                <label name="host" value="amarpreet911-Inspiron-N5010"/>
+                <label name="thread" value="22013@amarpreet911-Inspiron-N5010.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1511665956596" stop="1511665958329" status="passed">
+            <name>signInScreenIN[test_user13,passwrd13]</name>
+            <title>Title-TST-2</title>
+            <description>Test for Invalid_Credentials</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumJavaAutomation"/>
+                <label name="testClass" value="project.tests.SignInTests"/>
+                <label name="testMethod" value="signInScreenIN"/>
+                <label name="host" value="amarpreet911-Inspiron-N5010"/>
+                <label name="thread" value="22013@amarpreet911-Inspiron-N5010.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -3,10 +3,19 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>groupId</groupId>
     <artifactId>SeleniumJavaAutomation</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <suite.dir>${pom.basedir}${file.separator}xml${file.separator}</suite.dir>
+        <suite.file.signInTests>
+            ${suite.dir}${file.separator}SignInTests.xml
+        </suite.file.signInTests>
+        <suite.defaults>
+            ${suite.file.signInTests}
+        </suite.defaults>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -97,5 +106,36 @@
         </dependency>
 
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.19</version>
+                <configuration>
+                    <systemPropertyVariables>
+                    </systemPropertyVariables>
+                    <properties>
+                        <property>
+                            <name>usedefaultlisteners</name>
+                            <value>false</value>
+                        </property>
+                        <property>
+                            <name>listener</name>
+                            <value>
+                             qatest.reporting.TestListner
+                            </value>
+                        </property>
+                    </properties>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>
+                            ${suite.defaults}
+                        </suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
     
 </project>
